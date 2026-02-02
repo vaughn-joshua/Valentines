@@ -120,7 +120,8 @@ function App() {
           />
 
           <h1 className="text-center font-pacifico text-[10vw] lg:text-[6vh] font-black ">
-            YAYYYY 🙈🤭😎<br />
+            YAYYYY 🙈🤭😎
+            <br />
             <span
               className="text-base lg:text-[5vh] leading-tight pb-4 font-normal text-red-600"
               onClick={handleClick}
@@ -131,7 +132,7 @@ function App() {
         </main>
       )}
       {clicked == 3 && (
-        <main className="h-screen flex flex-col items-center justify-center bg-transparent gap-4 p-4 overflow-auto">
+        <main className="min-h-screen flex flex-col items-center gap-4 p-4 overflow-auto">
           <div className="flex flex-col items-center gap-2">
             <img
               src="https://itchsrkvqmxnzzvhscos.supabase.co/storage/v1/object/sign/Valentines/Cat%20Blush%20Sticker%20by%20Capoo.gif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNmJiNGFlMS02Mjg3LTRlNjQtYjI3Ni1hOWRjNDIyNGY4NjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJWYWxlbnRpbmVzL0NhdCBCbHVzaCBTdGlja2VyIGJ5IENhcG9vLmdpZiIsImlhdCI6MTc3MDAyNzM3NiwiZXhwIjoxODAxNTYzMzc2fQ.KQCAtANl5VHv2WxrHscNld7ycJ_OeJKm0Keqohupspg"
@@ -159,9 +160,9 @@ function App() {
                 <h1 className="text-lg sm:text-xl md:text-3xl font-bold font-pacifico text-red-600">
                   DIY Cake Baking
                 </h1>
-                <p className="text-xs sm:text-sm md:text-base text-gray-700 truncate">
+                <p className="text-xs sm:text-sm md:text-base text-gray-700 ">
                   Place: SM Megamall, IDIM DIY Bakery <br />
-                  What: We will bake our own cake, yay! 😄
+                  What: We bake our own cakee 😁
                 </p>
               </div>
             </div>
@@ -177,7 +178,7 @@ function App() {
                 <h1 className="text-lg sm:text-xl md:text-3xl font-bold font-pacifico text-red-600">
                   Amusement Park
                 </h1>
-                <p className="text-xs sm:text-sm md:text-base text-gray-700 truncate">
+                <p className="text-xs sm:text-sm md:text-base text-gray-700 ">
                   Place: Star City yayy <br />
                   What: Actually nainggit lang ako kina Gi AHSDHAHSDA buttt
                   lowkey tho this sounds funnn 👀😁
@@ -196,11 +197,11 @@ function App() {
                 <h1 className="text-lg sm:text-xl md:text-3xl font-bold font-pacifico text-red-600">
                   Trampoline Park
                 </h1>
-                <p className="text-xs sm:text-sm md:text-base text-gray-700 truncate">
+                <p className="text-xs sm:text-sm md:text-base text-gray-700 ">
                   Where: Festival Alabang, WiiJUMP Trampoline Park, indoor
                   playground <br />
                   What: MAY NINJA COURSE SILAAA hehe, tas falling net, and other
-                  fun stuff
+                  fun thingyy
                 </p>
               </div>
             </div>
