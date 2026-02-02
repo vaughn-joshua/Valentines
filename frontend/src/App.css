@@ -1,7 +1,34 @@
 @import "tailwindcss";
 
 .btn {
-  @apply inline-flex items-center justify-center px-4 py-2 rounded-md
-         bg-blue-600 text-white text-sm font-medium
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-md text-white 
          hover:bg-blue-700;
+}
+
+.font-pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.yes1 {
+  @apply text-base lg:text-base font-normal;
+}
+
+.yes2 {
+  @apply text-2xl lg:text-[5vh] font-semibold;
+}
+
+.yes3 {
+  @apply text-[10vw] lg:text-[8vh] font-semibold;
+}
+
+.yes4 {
+  @apply text-[18vw] lg:text-[12vh] font-bold;
+}
+
+.yes5 {
+  @apply text-[25vw] lg:text-[20vh] font-extrabold;
+}
+
+.yes6 {
+  @apply text-[40vw] lg:text-[30vh] font-black;
 }
