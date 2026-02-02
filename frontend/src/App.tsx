@@ -90,9 +90,9 @@ function App() {
             alt="Loading animation"
           />
 
-          <h1 className="text-center font-pacifico text-[8vw] lg:text-[5vh] leading-tight pb-4">
+          <h1 className="text-center text-[8vw] lg:text-[5vh] leading-tight pb-4">
             Will you be my <br />
-            <span className="text-[10vw] lg:text-[6vh] font-black text-red-600">
+            <span className="text-[10vw] font-pacifico lg:text-[6vh] font-black text-red-600">
               Valentines?
             </span>
           </h1>
@@ -123,7 +123,7 @@ function App() {
             alt="Loading animation"
           />
 
-          <h1 className="text-center font-pacifico text-[10vw] lg:text-[6vh] font-black ">
+          <h1 className="text-center text-[10vw] lg:text-[6vh] font-black ">
             YAYYYY 🙈🤭😎
             <br />
             <span
@@ -135,6 +135,7 @@ function App() {
           </h1>
         </main>
       )}
+
       {clicked == 3 && (
         <main className="min-h-screen flex flex-col items-center gap-4 p-4 overflow-auto">
           <div className="flex flex-col items-center gap-2">
@@ -144,7 +145,7 @@ function App() {
               alt="Loading animation"
             />
 
-            <h1 className="text-center font-pacifico text-[5vw] sm:text-[6vw] md:text-[5vh] leading-tight pb-2">
+            <h1 className="text-center text-[5vw] sm:text-[6vw] md:text-[5vh] leading-tight pb-2">
               wa u thinkkk 👀 <br />
               <span className="text-xs sm:text-sm md:text-base">
                 ur idea would help a lottt hihi (just let me know 😁)
