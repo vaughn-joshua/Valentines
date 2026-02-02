@@ -165,7 +165,7 @@ function App() {
               <img
                 src="https://itchsrkvqmxnzzvhscos.supabase.co/storage/v1/object/sign/Valentines/one%20(1).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNmJiNGFlMS02Mjg3LTRlNjQtYjI3Ni1hOWRjNDIyNGY4NjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJWYWxlbnRpbmVzL29uZSAoMSkucG5nIiwiaWF0IjoxNzcwMDI5NTEwLCJleHAiOjE4MDE1NjU1MTB9.3dDfgsDTNX5RiGN6zIqqo7RfrOg0rMZ2yWznf5O7vvo"
                 alt="DIY Cake Baking"
-                className="w-24 h-24 sm:w-28 sm:h-28 md:w-48 md:h-48 object-cover rounded-lg flex-shrink-0"
+                className="w-24 h-24 sm:w-28 sm:h-28 md:w-48 md:h-48 object-cover rounded-lg shrink-0"
               />
               <div className="flex flex-col justify-center flex-1 min-w-0">
                 <h1 className="text-lg sm:text-xl md:text-3xl font-bold font-pacifico text-red-600">
@@ -183,7 +183,7 @@ function App() {
               <img
                 src="https://itchsrkvqmxnzzvhscos.supabase.co/storage/v1/object/sign/Valentines/one%20(2).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNmJiNGFlMS02Mjg3LTRlNjQtYjI3Ni1hOWRjNDIyNGY4NjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJWYWxlbnRpbmVzL29uZSAoMikucG5nIiwiaWF0IjoxNzcwMDI5MTI4LCJleHAiOjE4MDE1NjUxMjh9.INLUcurVwHtBiV1B9LbIwaDkCJa09TfFrTYFfxHwRvs"
                 alt="Amusement Park"
-                className="w-24 h-24 sm:w-28 sm:h-28 md:w-48 md:h-48 object-cover rounded-lg flex-shrink-0"
+                className="w-24 h-24 sm:w-28 sm:h-28 md:w-48 md:h-48 object-cover rounded-lg shrink-0"
               />
               <div className="flex flex-col justify-center flex-1 min-w-0">
                 <h1 className="text-lg sm:text-xl md:text-3xl font-bold font-pacifico text-red-600">
@@ -202,7 +202,7 @@ function App() {
               <img
                 src="https://itchsrkvqmxnzzvhscos.supabase.co/storage/v1/object/sign/Valentines/one%20(3).png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNmJiNGFlMS02Mjg3LTRlNjQtYjI3Ni1hOWRjNDIyNGY4NjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJWYWxlbnRpbmVzL29uZSAoMykucG5nIiwiaWF0IjoxNzcwMDI5MjUxLCJleHAiOjE4MDE1NjUyNTF9.KYo6fpzjIdzjp_iW-W9-H7FMtoBnm6ob1CIRHU1HM3g"
                 alt="Trampoline Park"
-                className="w-24 h-24 sm:w-28 sm:h-28 md:w-48 md:h-48 object-cover rounded-lg flex-shrink-0"
+                className="w-24 h-24 sm:w-28 sm:h-28 md:w-48 md:h-48 object-cover rounded-lg shrink-0"
               />
               <div className="flex flex-col justify-center flex-1 min-w-0">
                 <h1 className="text-lg sm:text-xl md:text-3xl font-bold font-pacifico text-red-600">
