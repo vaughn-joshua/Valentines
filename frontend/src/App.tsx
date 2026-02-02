@@ -83,7 +83,7 @@ function App() {
       )}
 
       {clicked == 1 && (
-        <main className="h-screen justify-items-center place-content-center bg-transparent">
+        <main className="h-screen flex flex-col items-center justify-center">
           <img
             src={gif}
             className="w-[30vw] h-[30vw] lg:w-[20vh] lg:h-[20vh]"
@@ -116,7 +116,7 @@ function App() {
       )}
 
       {clicked == 2 && (
-        <main className="h-screen justify-items-center place-content-center bg-transparent">
+        <main className="h-screen flex flex-col items-center justify-center">
           <img
             src="https://itchsrkvqmxnzzvhscos.supabase.co/storage/v1/object/sign/Valentines/Cat%20Blush%20Sticker%20by%20Capoo.gif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNmJiNGFlMS02Mjg3LTRlNjQtYjI3Ni1hOWRjNDIyNGY4NjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJWYWxlbnRpbmVzL0NhdCBCbHVzaCBTdGlja2VyIGJ5IENhcG9vLmdpZiIsImlhdCI6MTc3MDAyNzM3NiwiZXhwIjoxODAxNTYzMzc2fQ.KQCAtANl5VHv2WxrHscNld7ycJ_OeJKm0Keqohupspg"
             className="w-[30vw] h-[30vw] lg:w-[20vh] lg:h-[20vh]"
