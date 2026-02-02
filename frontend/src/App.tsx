@@ -44,6 +44,10 @@ function App() {
     }
   };
 
+  const handleBack = () => {
+    setClick(clicked - 1);
+  };
+
   const clickNo = () => {
     if (count + 1 <= 5) {
       setCount(count + 1);
@@ -144,6 +148,13 @@ function App() {
               wa u thinkkk 👀 <br />
               <span className="text-xs sm:text-sm md:text-base">
                 ur idea would help a lottt hihi (just let me know 😁)
+              </span>
+              <span
+                className="text-xs sm:text-sm md:text-base"
+                onClick={handleBack}
+              >
+                {" "}
+                back here
               </span>
             </h1>
           </div>
